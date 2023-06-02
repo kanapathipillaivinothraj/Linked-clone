@@ -1,4 +1,3 @@
-# Author
 <!--  -->
 <div id="header" align="center">
   <p><h1> Hi there 👋 <br> I'm Vinothraj Kanapathipillai</h1></p>
