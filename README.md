@@ -1,12 +1,9 @@
 
-# Create a envirement
-- `python -m venv venv`
+### Create a envirement : `python -m venv venv`
 
-# Activate the env
-- `venv\Scripts\activate`
+### Activate the env : `venv\Scripts\activate`
 
-# install django
-- `pip install django`
+### install django : `pip install django`
 
 <!--  -->
 <div id="header" align="center">
