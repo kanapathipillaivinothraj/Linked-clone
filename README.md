@@ -1,3 +1,13 @@
+
+# Create a envirement
+- `python -m venv venv`
+
+# Activate the env
+- `venv\Scripts\activate`
+
+# install django
+- `pip install django`
+
 <!--  -->
 <div id="header" align="center">
   <p><h1> Hi there 👋 <br> I'm Vinothraj Kanapathipillai</h1></p>
