@@ -1,5 +1,17 @@
-{% extends 'mainfolder/index.html' %}
-{% block content %}
-<h1>Home</h1>
-    
+{% extends 'mainfolder/index.html' %} {% block content %}
+
+<div class="container-md">
+  <div class="row">
+    <div class="col-3">
+        {% include 'section/sidebar.html' %}
+    </div>
+    <div class="col-6">
+        {% include 'section/feedenter.html' %}
+        {% include 'section/post.html' %}
+    </div>
+    <div class="col-3">
+        {% include 'section/networkbar.html' %}
+    </div>
+  </div>
+</div>
 {% endblock content %}
