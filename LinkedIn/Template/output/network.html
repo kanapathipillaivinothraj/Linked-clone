@@ -1,11 +1,15 @@
 {% extends 'mainfolder/index.html' %} {% block content %}
 <div class="container-md mt-5">
   <div class="row mt-5">
-    <div class="col-lg-4 col-md-2 col-sm-12">
-      <div class="sticky-top mt-4">network manage</div>
+    <div class="col-lg-4 col-sm-12">
+      <div class="sticky-top mt-4">
+        {% include 'section/manage-network.html' %}
+      </div>
     </div>
-    <div class="col-lg-8 col-md-10 col-sm-12">
-      <div class="mt-4">People</div>
+    <div class="col-lg-8 col-sm-12">
+      <div class="mt-4">
+        {% include 'section/connections.html' %}
+      </div>
     </div>
   </div>
 </div>
